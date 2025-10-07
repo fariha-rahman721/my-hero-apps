@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXN9xSEe8unzPBEQOeAKXd9Q55efGHGB9BA&s",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 1,
+    "description": "Facebook connects people worldwide, making it easy to share updates, photos, and memories with friends and family. Stay informed about trending topics, communities, and pages that match your interests.",
+    "size": 120,
+    "reviews": "134M",
+    "ratingAvg": 4.1,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 7 },
+      { "name": "2 star", "count": 6 },
+      { "name": "3 star", "count": 10 },
+      { "name": "4 star", "count": 28 },
+      { "name": "5 star", "count": 83 }
+    ]
+  },
+  {
+    "image": "https://c.files.bbci.co.uk/C5CC/production/_89663605_instagram_logo_976.jpg",
+    "title": "Instagram",
+    "companyName": "Instagram",
+    "id": 2,
+    "description": "Instagram lets you capture and share your favorite moments with friends and the world. Discover new trends, follow creators, and express yourself with Reels, filters, and creative stories.",
+    "size": 110,
+    "reviews": "130M",
+    "ratingAvg": 4.3,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 6 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 9 },
+      { "name": "4 star", "count": 27 },
+      { "name": "5 star", "count": 85 }
+    ]
+  },
+  {
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/016/716/480/small/whatsapp-icon-free-png.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "id": 3,
+    "description": "WhatsApp offers simple, secure messaging and calling for free. Chat privately, share media, and stay connected with friends, family, and colleagues across the globe.",
+    "size": 95,
+    "reviews": "180M",
+    "ratingAvg": 4.4,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 8 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 7 },
+      { "name": "4 star", "count": 22 },
+      { "name": "5 star", "count": 90 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/BmUViDVOKNJe0GYJe22hsr7juFndRVbvr1fGmHGXqHfJjNAXjd26bfuGRQpVrpJ6YbA",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 4,
+    "description": "TikTok brings joy through short, creative videos from around the world. Discover trends, showcase your creativity, and join a community that celebrates every moment.",
+    "size": 160,
+    "reviews": "120M",
+    "ratingAvg": 4.2,
+    "downloads": "3B+",
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 8 },
+      { "name": "3 star", "count": 12 },
+      { "name": "4 star", "count": 25 },
+      { "name": "5 star", "count": 70 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 5,
+    "description": "YouTube gives you access to billions of videos across all genres. Watch music, news, tutorials, and entertainment while subscribing to your favorite channels.",
+    "size": 145,
+    "reviews": "160M",
+    "ratingAvg": 4.3,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 8 },
+      { "name": "2 star", "count": 6 },
+      { "name": "3 star", "count": 11 },
+      { "name": "4 star", "count": 29 },
+      { "name": "5 star", "count": 90 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1200px-Gmail_icon_%282020%29.svg.png",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 6,
+    "description": "Gmail is a trusted email service that helps you stay organized and productive. Manage messages, avoid spam, and connect with people through a clean and efficient interface.",
+    "size": 75,
+    "reviews": "90M",
+    "ratingAvg": 4.4,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 6 },
+      { "name": "2 star", "count": 4 },
+      { "name": "3 star", "count": 9 },
+      { "name": "4 star", "count": 30 },
+      { "name": "5 star", "count": 85 }
+    ]
+  },
+  {
+    "image": "https://ritalinboy.com/app/uploads/2022/05/148-1487614_spotify-logo-small-spotify-logo-transparent-hd-png.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 7,
+    "description": "Spotify gives you instant access to millions of songs, podcasts, and playlists. Discover new artists, follow your favorites, and enjoy music that fits every mood.",
+    "size": 115,
+    "reviews": "95M",
+    "ratingAvg": 4.5,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 3 },
+      { "name": "3 star", "count": 7 },
+      { "name": "4 star", "count": 25 },
+      { "name": "5 star", "count": 90 }
+    ]
+  },
+  {
+    "image": "https://store-images.s-microsoft.com/image/apps.64248.14208673485779370.88f23073-7e41-4921-aef9-76103983bd31.714459aa-91a6-45a3-a7ed-1f6a283c93fd",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 8,
+    "description": "Snapchat lets you share fun moments instantly with friends. Use creative lenses and filters, chat privately, and explore stories from people across the globe.",
+    "size": 100,
+    "reviews": "85M",
+    "ratingAvg": 4.2,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 7 },
+      { "name": "2 star", "count": 6 },
+      { "name": "3 star", "count": 10 },
+      { "name": "4 star", "count": 23 },
+      { "name": "5 star", "count": 80 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_dbOUeCrOBe-mkfGD-fEjQNECJrkromWTYg&s",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 9,
+    "description": "Telegram combines speed and security for your messages. Enjoy group chats, file sharing, and channels while syncing across devices seamlessly.",
+    "size": 92,
+    "reviews": "65M",
+    "ratingAvg": 4.5,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 4 },
+      { "name": "2 star", "count": 3 },
+      { "name": "3 star", "count": 8 },
+      { "name": "4 star", "count": 21 },
+      { "name": "5 star", "count": 88 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn",
+    "id": 10,
+    "description": "LinkedIn connects professionals from every industry. Build your profile, network with others, and find jobs or opportunities to grow your career.",
+    "size": 130,
+    "reviews": "35M",
+    "ratingAvg": 4.3,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 4 },
+      { "name": "3 star", "count": 9 },
+      { "name": "4 star", "count": 24 },
+      { "name": "5 star", "count": 80 }
+    ]
+  },
+  {
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/036/623/777/small/social-media-x-logo-black-and-white-free-png.png",
+    "title": "X (Twitter)",
+    "companyName": "X Corp.",
+    "id": 11,
+    "description": "X, formerly Twitter, is where conversations happen. Share your thoughts, follow trending topics, and connect directly with your favorite people and communities.",
+    "size": 98,
+    "reviews": "70M",
+    "ratingAvg": 4.0,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 9 },
+      { "name": "2 star", "count": 7 },
+      { "name": "3 star", "count": 10 },
+      { "name": "4 star", "count": 22 },
+      { "name": "5 star", "count": 75 }
+    ]
+  },
+  {
+    "image": "https://yt3.googleusercontent.com/CvgBA1ypUZNxOjiCX0l1V2FbAm7oSDPZE4YkMvkpT_4iLXQ3IXWVtBgWnznHxgtcUoj50TXqZA=s900-c-k-c0x00ffffff-no-rj",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 12,
+    "description": "Netflix brings award-winning movies, TV shows, and documentaries to your device. Stream unlimited entertainment, create profiles, and watch your favorites anytime.",
+    "size": 155,
+    "reviews": "120M",
+    "ratingAvg": 4.5,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 6 },
+      { "name": "2 star", "count": 4 },
+      { "name": "3 star", "count": 8 },
+      { "name": "4 star", "count": 20 },
+      { "name": "5 star", "count": 90 }
+    ]
+  },
+  {
+    "image": "https://www.bew-web-agency.fr/wp-content/uploads/2023/11/Capcut-Logo.jpg",
+    "title": "CapCut",
+    "companyName": "Bytedance Pte. Ltd.",
+    "id": 13,
+    "description": "CapCut is a free, all-in-one video editor that helps you create stunning content. Edit clips, add effects, text, and music to produce high-quality videos easily.",
+    "size": 210,
+    "reviews": "60M",
+    "ratingAvg": 4.6,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 3 },
+      { "name": "2 star", "count": 2 },
+      { "name": "3 star", "count": 6 },
+      { "name": "4 star", "count": 20 },
+      { "name": "5 star", "count": 90 }
+    ]
+  },
+  {
+    "image": "https://pipedream.com/s.v0/app_X7Lh9Z/logo/orig",
+    "title": "Pinterest",
+    "companyName": "Pinterest",
+    "id": 14,
+    "description": "Pinterest helps you explore endless ideas for design, cooking, fashion, and more. Save and organize inspirations to bring your creative dreams to life.",
+    "size": 125,
+    "reviews": "40M",
+    "ratingAvg": 4.6,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 4 },
+      { "name": "2 star", "count": 3 },
+      { "name": "3 star", "count": 7 },
+      { "name": "4 star", "count": 21 },
+      { "name": "5 star", "count": 88 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/images/branding/product/2x/maps_96in128dp.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 15,
+    "description": "Google Maps helps you navigate the world with real-time GPS, traffic updates, and local business information. Discover new places and travel smarter every day.",
+    "size": 180,
+    "reviews": "120M",
+    "ratingAvg": 4.4,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 6 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 10 },
+      { "name": "4 star", "count": 27 },
+      { "name": "5 star", "count": 85 }
+    ]
+  },
+  {
+    "image": "https://m.media-amazon.com/images/I/31epF-8N9LL.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 16,
+    "description": "Amazon makes shopping effortless. Browse millions of products, compare prices, and get fast delivery—all from the comfort of your phone.",
+    "size": 140,
+    "reviews": "100M",
+    "ratingAvg": 4.3,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 7 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 8 },
+      { "name": "4 star", "count": 26 },
+      { "name": "5 star", "count": 84 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/square-zoom-logo-isolated-white-background_469489-910.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 17,
+    "description": "Zoom helps you stay connected with video calls, webinars, and messaging. Host meetings, share screens, and collaborate seamlessly from anywhere.",
+    "size": 130,
+    "reviews": "50M",
+    "ratingAvg": 4.3,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 6 },
+      { "name": "2 star", "count": 4 },
+      { "name": "3 star", "count": 7 },
+      { "name": "4 star", "count": 24 },
+      { "name": "5 star", "count": 83 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/3aWGqSf3T_p3F6wc8FFvcZcnjWlxpZdNaqFVEvPwQ1gTOPkVoZwq6cYvfK9eCkwCXbRY",
+    "title": "Canva",
+    "companyName": "Canva",
+    "id": 18,
+    "description": "Canva is a design tool that helps you create stunning graphics, posts, and presentations. Choose from thousands of templates and design with ease.",
+    "size": 200,
+    "reviews": "55M",
+    "ratingAvg": 4.8,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 2 },
+      { "name": "2 star", "count": 2 },
+      { "name": "3 star", "count": 4 },
+      { "name": "4 star", "count": 18 },
+      { "name": "5 star", "count": 94 }
+    ]
+  },
+  {
+    "image": "https://store-images.s-microsoft.com/image/apps.15970.14375561300249796.05fe8c27-ce9e-4144-8702-0e81e2f575b1.042364cb-b745-4796-a520-61291e2dd6b9",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 19,
+    "description": "Reddit is the front page of the internet, filled with communities sharing content and discussions about everything you love—from news to hobbies and memes.",
+    "size": 85,
+    "reviews": "25M",
+    "ratingAvg": 4.1,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 8 },
+      { "name": "2 star", "count": 6 },
+      { "name": "3 star", "count": 9 },
+      { "name": "4 star", "count": 22 },
+      { "name": "5 star", "count": 75 }
+    ]
+  },
+  {
+    "image": "https://static.vecteezy.com/system/resources/previews/023/986/880/non_2x/discord-logo-discord-logo-transparent-discord-icon-transparent-free-free-png.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 20,
+    "description": "Discord lets you hang out and chat with friends through voice, video, and text. Build communities, join servers, and stay connected with people who share your interests.",
+    "size": 135,
+    "reviews": "40M",
+    "ratingAvg": 4.6,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 4 },
+      { "name": "2 star", "count": 3 },
+      { "name": "3 star", "count": 7 },
+      { "name": "4 star", "count": 21 },
+      { "name": "5 star", "count": 88 }
+    ]
+  }
+]
