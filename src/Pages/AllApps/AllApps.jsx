@@ -7,7 +7,7 @@ const AllApps = ({data}) => {
     return (
 
         <Link to={`/appDetails/${id}`}>
-            <div className="card bg-base-100 w-[348px] h-[445px] shadow-sm flex-1">
+            <div className="card bg-base-100 w-[348px] h-[445px] shadow-2xl flex-1 transform transition-transform hover:scale-105">
               <figure className=" w-[280px] h-[300px] mx-auto bg-cover p-2 rounded-xl">
                 <img className="rounded-xl"
                   src={image}
