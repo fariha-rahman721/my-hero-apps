@@ -12,7 +12,7 @@ const Hero = () => {
 
                 {/* 3 flex sec */}
 
-                <div className="w-9/12 mx-auto grid grid-cols-1 lg:grid-cols-3 ">
+                <div className="w-9/12 mx-auto grid grid-cols-1 lg:grid-cols-3">
                    {/* 1 */}
                     <div className="text-white text-center p-5 mb-10">
                      <p>Total Downloads</p>

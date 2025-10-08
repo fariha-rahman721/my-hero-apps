@@ -1,13 +1,14 @@
 import { Github } from 'lucide-react';
 import React from 'react';
+import { Link } from 'react-router';
 
 const Navbar = () => {
 
     const links = <>
-    <li className='m-3 text-[15px] font-semibold hover:text-purple-600 hover:font-bold hover:underline'><a>Home</a></li>
+    <Link to='/'><li className='m-3 text-[15px] font-semibold hover:text-purple-600 hover:font-bold hover:underline'>Home</li></Link>
      
-      <li className='m-3 text-[15px] font-semibold hover:text-purple-600 hover:font-bold hover:underline'><a>Apps</a></li>
-      <li className='m-3 text-[15px] font-semibold hover:text-purple-600 hover:font-bold hover:underline'><a>Installation</a></li>
+      <Link to='/apps'><li className='m-3 text-[15px] font-semibold hover:text-purple-600 hover:font-bold hover:underline'>Apps</li></Link>
+      <Link to='/installation'><li className='m-3 text-[15px] font-semibold hover:text-purple-600 hover:font-bold hover:underline'>Installation</li></Link>
     
     </>
     return (
@@ -36,7 +37,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn bg-gradient-to-r from-purple-600 to-purple-500 text-white font-bold"><Github />Contribute</a>
+    <a href='https://github.com/fariha-rahman721/my-hero-apps.git' target='_blank' rel='noopener noreferrer' className="btn bg-gradient-to-r from-purple-600 to-purple-500 text-white font-bold"><Github />Contribute</a>
   </div>
 </div>
     );

@@ -1,22 +1,43 @@
 import React, { Suspense, useState } from 'react';
-import SingleApp from '../SingleApp/SingleApp';
+import { useLoaderData } from 'react-router';
+import AllApps from '../AllApps/AllApps';
 
-const Apps = ({data}) => {
-      const [allApps, setAllApps] = useState([]);
-    
+const Apps = () => {
+    const allData = useLoaderData();
+    const [search, setSearch] = useState('')
+    const term = search.trim().toLocaleLowerCase()
+    const searchedApps = term? allData.filter(data => data.title.toLocaleLowerCase().includes(term)) : allData
+
     return (
-        <div className='m-15 w-full mx-auto mb-10'>
-            <h1 className='text-4xl font-bold text-center'>Trending Apps</h1>
-            <p className='text-center mb-10 text-gray-500 m-2'>Explore All Trending Apps on the Market developed by us</p>
-            <div className="w-11/12 mx-auto grid grid-cols-1 lg:grid-cols-4 gap-4">
-            <Suspense fallback={<div><img src="/logo.png" alt="" /><span>Loading....</span></div>}>
-             {
-                data.map((app) => <SingleApp key={app.id} app={app}></SingleApp>)
-             }
-            
+        <div className='w-11/12 mx-auto mt-10'>
+            <h1 className='text-center text-3xl font-semibold'>Our All Applications</h1>
+            <p className='text-center p-2 text-gray-700'>Explore All Apps on the Market developed by us. We code for Millions</p>
+            <div className="flex justify-between mt-10">
+                <h3 className='font-bold'>({searchedApps.length}) Apps Found</h3>
+                <label className="input">
+  <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <g
+      strokeLinejoin="round"
+      strokeLinecap="round"
+      strokeWidth="2.5"
+      fill="none"
+      stroke="currentColor"
+    >
+      <circle cx="11" cy="11" r="8"></circle>
+      <path d="m21 21-4.3-4.3"></path>
+    </g>
+  </svg>
+  <input value={search} onChange={(e)=> setSearch(e.target.value)} type="search" required placeholder="Search" />
+</label>
+            </div>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-5'>
+                <Suspense>
+                  {
+                    searchedApps.map(data => <AllApps key={data.id} data={data}></AllApps>)
+                  }
             </Suspense>
+            </div>
             
-        </div>
         </div>
     );
 };
