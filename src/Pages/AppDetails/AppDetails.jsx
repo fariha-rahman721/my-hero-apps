@@ -7,21 +7,24 @@ import {
   Bar,
   XAxis,
   YAxis,
-  CartesianGrid,
+  
   Tooltip,
   ResponsiveContainer,
-  Legend
+  Legend,
+  Rectangle
 } from "recharts";
 import { addInstalledToDB } from '../../assets/utility/addToDb';
 
 
 const AppDetails = () => {
     const data = useLoaderData();
+
+    
     
     const {id} = useParams();
     const appId = parseInt(id)
     const singleApp = data.find(app => app.id === appId)
-    const {image, title, companyName, downloads, ratingAvg, reviews, ratings, description, size} = singleApp;
+    const {image, title, companyName, downloads, ratingAvg, ratings, reviews, description, size} = singleApp;
 
     const [installed, setInstalled] = useState(false);
 
@@ -33,16 +36,18 @@ const AppDetails = () => {
         
     }
 
+   
+
     
     return (
         <div className='w-11/12 mx-auto  mt-10'>
-            <div className="flex flex-col justify-center items-center lg:flex-row gap-20 pb-10 border-b-2 border-gray-400 ">
+            <div className="w-11/12 mx-auto grid justify-between items-center lg:grid-cols-11 gap-10 pb-10 border-b-2 border-gray-400">
             {/* img */}
-            <div className="">
-                <img className='' src={image} alt="" />
+            <div className="col-span-2">
+                <img className=' bg-none' src={image} alt="" />
             </div>
             {/* details parent div */}
-            <div className="">
+            <div className="col-span-9">
                 <div>
                     <h1 className='text-3xl font-bold'>{title}</h1>
                     <p className='text-purple-600 mt-2'><span className='text-gray-600'>Developed by</span> {companyName}</p>
@@ -65,7 +70,7 @@ const AppDetails = () => {
                     </div>
                 </div>
                 
-                <button onClick={() => handleInstall(id)} disabled={installed} className='bg-green-500 text-white p-3 rounded font-semibold cursor-pointer hover:bg-green-400'
+                <button onClick={() => handleInstall(id)} disabled={installed} className={` text-white p-3 rounded font-semibold cursor-pointer ${installed? 'bg-pink-500 cursor-not-allowed': 'bg-green-500 hover:bg-purple-700'} `}
                 >{installed? `Installed` : `Install Now (${size} MB)`} 
                 </button>
                 <ToastContainer></ToastContainer>
@@ -74,23 +79,32 @@ const AppDetails = () => {
 
             {/* barchart */}
             
-            <div className='mt-10 border-b-2 border-gray-400'>
-                <h1>Ratings</h1>
-                <div>
-                    <ResponsiveContainer width="100%" height="100%">
-        <BarChart
-          data={ratings}
-          margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
-        >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
-          <YAxis />
-          <Tooltip />
-          <Legend />
-          <Bar dataKey="count" fill="#4F46E5" radius={[6, 6, 0, 0]} />
-        </BarChart>
-      </ResponsiveContainer>
-                </div>
+            <div className='mt-10 border-b-2 border-gray-300'>
+                <h1 className='mt-8 text-xl font-semibold mb-5'>Ratings</h1>
+                <div className='bg-base-100 h-150 rounded mb-5'>
+                   <ResponsiveContainer width="100%" height="100%">
+      <BarChart
+      layout='vertical'
+        width={500}
+        height={300}
+        data={ratings}
+        margin={{
+          top: 5,
+          right: 30,
+          left: 20,
+          bottom: 5,
+        }}
+      >
+        
+        <XAxis dataKey="count" type='number' domain={[0, 100]}/>
+        <YAxis dataKey="name" type='category' reversed />
+        <Tooltip />
+        <Legend />
+        <Bar dataKey="count" fill='orange' activeBar={<Rectangle fill="red" stroke="#FF8C00" />} />
+        <Bar dataKey="name" fill="blue" activeBar={<Rectangle fill="gold" stroke="purple" />} />
+      </BarChart>
+    </ResponsiveContainer>
+              </div>
             </div>
 
 

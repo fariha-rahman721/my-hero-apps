@@ -27,6 +27,11 @@ const Installation = () => {
     }
 
         }
+
+        const handleUninstall = (id) =>{
+            const updatedApps = myinstalledApp.filter(app => app.id !== id)
+            setMyInstalledApp(updatedApps)
+        }
     
 
 
@@ -50,19 +55,19 @@ const Installation = () => {
                            sortedApp().map(app =>(
                                 <div className="card card-side bg-base-100 shadow-md mt-8">
   <figure className='ml-5'>
-    <img className='w-[80px] h-[80px]'
+    <img className='w-[90px] h-[90px]'
       src={app.image}
       alt="Movie" />
   </figure>
-  <div className="card-body">
-    <h2 className="card-title">{app.title}</h2>
+  <div className="card-body ">
+    <h2 className="card-title ">{app.title}</h2>
     <div className="flex space-x-4 p-1 flex-1">
         <span className="font-semibold text-[#00D390] border-none rounded-xl "><FaArrowDown className="text-[#00D390]"/>{app.downloads}</span>
                 <span className=" text-orange-500 border-none rounded-xl"><FaStar />{app.ratingAvg}</span>
-                <span className=' text-gray-500'>{app.size} MB</span>
+                <span className=' text-gray-500 mt-2.5'>{app.size} MB</span>
     </div>
     <div className="card-actions justify-end">
-      <button className="btn bg-[#00D390] text-white">Uninstall</button>
+      <button onClick={() => handleUninstall(app.id)} className="btn bg-[#00D390] text-white hover:bg-pink-600 hover:shadow-amber-400">Uninstall</button>
     </div>
   </div>
 </div>

@@ -1,4 +1,4 @@
-import { toast } from "react-toastify";
+
 
   const getInstalledApp = () =>{
 
@@ -15,7 +15,7 @@ import { toast } from "react-toastify";
   const addInstalledToDB = (id) =>{
      const installedAppData = getInstalledApp();
      if(installedAppData.includes(id)){
-        toast('Already installed')
+        return;
      } else{
         installedAppData.push(id)
         const data = JSON.stringify(installedAppData)
