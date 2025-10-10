@@ -3,10 +3,14 @@ import { useLoaderData } from 'react-router';
 import { getInstalledApp } from '../../assets/utility/addToDb';
 import { FaArrowDown, FaStar } from 'react-icons/fa';
 
+
+
 const Installation = () => {
     const [myinstalledApp, setMyInstalledApp] = useState([])
     const [sortApp, setSortApp] = useState('none')
     const data = useLoaderData();
+
+     
     
     useEffect(()=> {
         const installedAppData = getInstalledApp();
@@ -28,9 +32,18 @@ const Installation = () => {
 
         }
 
+        const removeFromLocalStorage = (id) => {
+        const stored = JSON.parse(localStorage.getItem('Installed App')) || [];
+        const updated = stored.filter(appId => parseInt(appId) !== id);
+        localStorage.setItem('Installed App', JSON.stringify(updated));
+    };
+
         const handleUninstall = (id) =>{
+           
             const updatedApps = myinstalledApp.filter(app => app.id !== id)
             setMyInstalledApp(updatedApps)
+        removeFromLocalStorage(id)
+       
         }
     
 
@@ -53,7 +66,7 @@ const Installation = () => {
                         </div>
                         {
                            sortedApp().map(app =>(
-                                <div className="card card-side bg-base-100 shadow-md mt-8">
+                                <div key={app.id} className="card card-side bg-base-100 shadow-md mt-8">
   <figure className='ml-5'>
     <img className='w-[90px] h-[90px]'
       src={app.image}

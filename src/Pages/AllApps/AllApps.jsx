@@ -1,13 +1,17 @@
 import React from 'react';
 import { FaArrowDown, FaStar } from 'react-icons/fa';
 import { Link } from 'react-router';
+import Loader from '../Loader/Loader';
 
 const AllApps = ({data}) => {
-    const {id, image, title, companyName, downloads, ratingAvg} = data;
+    const {id, image, title, companyName, downloads, ratingAvg, loading} = data;
     return (
 
         <Link to={`/appDetails/${id}`}>
-            <div className="card bg-base-100 w-[348px] h-[445px] shadow-2xl flex-1 transform transition-transform hover:scale-105">
+            {
+              loading? (<Loader></Loader>):
+              (
+                <div className="card bg-base-100 w-[348px] h-[445px] mx-auto shadow-sm flex-1 transform transition-transform hover:scale-105">
               <figure className=" w-[280px] h-[300px] mx-auto bg-cover p-2 rounded-xl">
                 <img className="rounded-xl"
                   src={image}
@@ -23,6 +27,8 @@ const AllApps = ({data}) => {
                 </div>
               </div>
 
+              )
+            }
         </Link>
     );
 };

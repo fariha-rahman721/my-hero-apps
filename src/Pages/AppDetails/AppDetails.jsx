@@ -70,7 +70,7 @@ const AppDetails = () => {
                     </div>
                 </div>
                 
-                <button onClick={() => handleInstall(id)} disabled={installed} className={` text-white p-3 rounded font-semibold cursor-pointer ${installed? 'bg-pink-500 cursor-not-allowed': 'bg-green-500 hover:bg-purple-700'} `}
+                <button onClick={() => handleInstall(id)} disabled={installed} className={` text-white p-3 rounded font-semibold cursor-pointer ${installed? 'bg-pink-900 cursor-not-allowed': 'bg-green-500 hover:bg-purple-700'} `}
                 >{installed? `Installed` : `Install Now (${size} MB)`} 
                 </button>
                 <ToastContainer></ToastContainer>

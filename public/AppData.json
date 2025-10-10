@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXN9xSEe8unzPBEQOeAKXd9Q55efGHGB9BA&s",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg",
     "title": "Facebook",
     "companyName": "Meta Platforms, Inc.",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://c.files.bbci.co.uk/C5CC/production/_89663605_instagram_logo_976.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
     "title": "Instagram",
     "companyName": "Instagram",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "https://static.vecteezy.com/system/resources/thumbnails/016/716/480/small/whatsapp-icon-free-png.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
     "title": "WhatsApp Messenger",
     "companyName": "WhatsApp LLC",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/BmUViDVOKNJe0GYJe22hsr7juFndRVbvr1fGmHGXqHfJjNAXjd26bfuGRQpVrpJ6YbA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tiktok_icon.svg/1200px-Tiktok_icon.svg.png",
     "title": "TikTok",
     "companyName": "TikTok Pte. Ltd.",
     "id": 4,
@@ -92,7 +92,7 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1200px-Gmail_icon_%282020%29.svg.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png",
     "title": "Gmail",
     "companyName": "Google LLC",
     "id": 6,
@@ -111,7 +111,7 @@
     ]
   },
   {
-    "image": "https://ritalinboy.com/app/uploads/2022/05/148-1487614_spotify-logo-small-spotify-logo-transparent-hd-png.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg",
     "title": "Spotify",
     "companyName": "Spotify AB",
     "id": 7,
@@ -149,7 +149,7 @@
     ]
   },
   {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_dbOUeCrOBe-mkfGD-fEjQNECJrkromWTYg&s",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "id": 9,
@@ -168,7 +168,7 @@
     ]
   },
   {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/500px-LinkedIn_logo_initials.png",
     "title": "LinkedIn",
     "companyName": "LinkedIn",
     "id": 10,
@@ -206,7 +206,7 @@
     ]
   },
   {
-    "image": "https://yt3.googleusercontent.com/CvgBA1ypUZNxOjiCX0l1V2FbAm7oSDPZE4YkMvkpT_4iLXQ3IXWVtBgWnznHxgtcUoj50TXqZA=s900-c-k-c0x00ffffff-no-rj",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Netflix_icon.svg",
     "title": "Netflix",
     "companyName": "Netflix, Inc.",
     "id": 12,
@@ -225,7 +225,7 @@
     ]
   },
   {
-    "image": "https://www.bew-web-agency.fr/wp-content/uploads/2023/11/Capcut-Logo.jpg",
+    "image": "https://i.pinimg.com/736x/f2/dc/79/f2dc79f9d25ef1ad1acb93a56d04d2df.jpg",
     "title": "CapCut",
     "companyName": "Bytedance Pte. Ltd.",
     "id": 13,

@@ -23,4 +23,7 @@
      }
 
   }
+
+  
+
   export {addInstalledToDB, getInstalledApp}

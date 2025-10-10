@@ -1,13 +1,18 @@
 import React, { Suspense, useState } from 'react';
 import { Link, useLoaderData } from 'react-router';
 import AllApps from '../AllApps/AllApps';
+import Loader from '../Loader/Loader';
 
 const Apps = () => {
     const allData = useLoaderData();
+     
     const [search, setSearch] = useState('')
     const term = search.trim().toLocaleLowerCase()
     const searchedApps = term? allData.filter(data => data.title.toLocaleLowerCase().includes(term)) : allData;
     
+     
+    
+
     if(searchedApps.length === 0){
         return(
             <div className='w-11/12 mx-auto flex flex-col justify-center items-center mt-10'>
@@ -15,7 +20,7 @@ const Apps = () => {
                  <h1 className='text-4xl font-semibold p-3'>OPPS!! APP NOT FOUND</h1>
                  <p className='text-gray-500'>The App you are requesting is not found on our system.  please try another apps</p>
                  <Link to= '/'>
-                 <button className='btn bg-gradient-to-r from-purple-600 to-purple-500 text-white mt-3 cursor-pointer'>Go Back!</button>
+                 <button className='btn bg-gradient-to-r from-purple-600 to-purple-500 text-white mt-3 cursor-pointer mb-10'>Go Back!</button>
                  </Link>
             </div>
         )
@@ -43,13 +48,13 @@ const Apps = () => {
   <input value={search} onChange={(e)=> setSearch(e.target.value)} type="search" required placeholder="Search" />
 </label>
             </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-5 '>
+                <div className='w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4  mt-5 '>
                     
-                <Suspense>
+                <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
                   {
                     searchedApps.map(data => <AllApps key={data.id} data={data}></AllApps>)
                   }
-            </Suspense>
+               </Suspense>
             </div>
             
         </div>

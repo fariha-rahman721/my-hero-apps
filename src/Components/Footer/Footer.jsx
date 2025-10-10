@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="footer flex flex-col  gap-10 lg:justify-center items-center footer-center bg-purple-500 text-white rounded p-10">
+        <footer className="footer flex flex-col  gap-10 lg:justify-center items-center footer-center bg-purple-500 text-white rounded p-10 mt-10">
 
             <div className="">
                 <h4 className='text-xl font-semibold'>Get notified about new apps & updates!</h4>
