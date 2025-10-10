@@ -1,16 +1,31 @@
-import React, { Suspense, useState } from 'react';
+import React, { Suspense, useEffect, useState } from 'react';
 import { Link, useLoaderData } from 'react-router';
 import AllApps from '../AllApps/AllApps';
 import Loader from '../Loader/Loader';
 
 const Apps = () => {
     const allData = useLoaderData();
-     
-    const [search, setSearch] = useState('')
-    const term = search.trim().toLocaleLowerCase()
+     const [loading, setLoading] = useState(true);
+    const [search, setSearch] = useState('');
+    const term = search.trim().toLocaleLowerCase();
     const searchedApps = term? allData.filter(data => data.title.toLocaleLowerCase().includes(term)) : allData;
+
+    
     
      
+    useEffect(() =>{
+      setTimeout(() => {
+        if(allData && allData.length > 0) {
+          setLoading(false)
+        }
+        
+      }, 2000)
+    }, [allData]);
+
+
+     if(loading){
+      return <Loader></Loader>
+     } 
     
 
     if(searchedApps.length === 0){

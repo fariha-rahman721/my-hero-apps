@@ -37,7 +37,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a href='https://github.com/fariha-rahman721/my-hero-apps.git' target='_blank' rel='noopener noreferrer' className="btn bg-gradient-to-r from-purple-600 to-purple-500 text-white font-bold"><Github />Contribute</a>
+    <a href='https://github.com/fariha-rahman721' target='_blank' rel='noopener noreferrer' className="btn bg-gradient-to-r from-purple-600 to-purple-500 text-white font-bold"><Github />Contribute</a>
   </div>
 </div>
     );

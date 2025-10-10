@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router';
 import { getInstalledApp } from '../../assets/utility/addToDb';
 import { FaArrowDown, FaStar } from 'react-icons/fa';
+import { toast, ToastContainer } from 'react-toastify';
 
 
 
@@ -39,9 +40,10 @@ const Installation = () => {
     };
 
         const handleUninstall = (id) =>{
-           
+            toast.success('App Uninstalled Successfully!')
             const updatedApps = myinstalledApp.filter(app => app.id !== id)
             setMyInstalledApp(updatedApps)
+           
         removeFromLocalStorage(id)
        
         }
@@ -80,8 +82,10 @@ const Installation = () => {
                 <span className=' text-gray-500 mt-2.5'>{app.size} MB</span>
     </div>
     <div className="card-actions justify-end">
+    
       <button onClick={() => handleUninstall(app.id)} className="btn bg-[#00D390] text-white hover:bg-pink-600 hover:shadow-amber-400">Uninstall</button>
     </div>
+    <ToastContainer></ToastContainer>
   </div>
 </div>
                             ))
